@@ -66,7 +66,7 @@ class PSO:
         self.gb = self.pb[evaluation_min_idx]
 
     def solution_search_phase(self):
-        pb_evaluations = []
+        self.pb_evaluations = []
         for i in range(self.N):
             #速度更新
             self.vs[i] = self.omega * self.vs[i] + self.c1 * random.random() * (self.pb[i] - self.xs[i]) + self.c2 * random.random() * (self.gb - self.xs[i])
@@ -74,24 +74,15 @@ class PSO:
             self.xs[i] = self.xs[i] + self.vs[i]
             
             self.evaluations[i] = self.func(*self.xs[i])
-            pb_evaluations.append(self.func(*self.pb[i]))
-            if self.evaluations[i] < pb_evaluations[i]:
+            self.pb_evaluations.append(self.func(*self.pb[i]))
+            if self.evaluations[i] < self.pb_evaluations[i]:
                 self.pb[i] = self.xs[i]
                 
         #gbest更新
-        evaluation_min_val = min(pb_evaluations)
-        evaluation_min_idx = pb_evaluations.index(evaluation_min_val)
-        if pb_evaluations[evaluation_min_idx] < self.func(*self.gb):
+        evaluation_min_val = min(self.pb_evaluations)
+        evaluation_min_idx = self.pb_evaluations.index(evaluation_min_val)
+        if self.pb_evaluations[evaluation_min_idx] < self.func(*self.gb):
             self.gb = self.pb[evaluation_min_idx]
-
-
-# In[19]:
-
-
-a = []
-a.append([1,0])
-a.append([2,3])
-print(a)
 
 
 # In[ ]:
