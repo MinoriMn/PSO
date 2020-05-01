@@ -11,13 +11,22 @@
 - 共通パラメータ{`世代数`:100}
 
 - `個体数N`:50, `ω`:0.8, `c1`:2.7, `c2`:0.9
+  - `prefix`:`N50G100_o0d8_cp2d7_cg0d9_0` ~ `N50G100_o0d8_cp2d7_cg0d9_4`
 - `個体数N`:50, `ω`:0.8, `c1`:0.9, `c2`:2.7
+  - `prefix`:`N50G100_o0d8_cp0d9_cg2d7_0` ~ `N50G100_o0d8_cp0d9_cg2d7_4`
 - `個体数N`:20, `ω`:0.8, `c1`:2.7, `c2`:0.9
+  - `prefix`:`N20G100_o0d8_cp2d7_cg0d9_0` ~ `N20G100_o0d8_cp2d7_cg0d9_4`
 - `個体数N`:20, `ω`:0.8, `c1`:0.9, `c2`:2.7
+  - `prefix`:`N20G100_o0d8_cp0d9_cg2d7_0` ~ `N20G100_o0d8_cp0d9_cg2d7_4`
 - `個体数N`:20, `ω`:0.2, `c1`:1.8, `c2`:0.6
+  - `prefix`:`N20G100_o0d8_cp1d8_cg0d6_0` ~ `N20G100_o0d8_cp1d8_cg0d6_4`
 - `個体数N`:20, `ω`:0.2, `c1`:0.6, `c2`:1.8
+  - `prefix`:`N20G100_o0d8_cp0d6_cg1d8_0` ~ `N20G100_o0d8_cp0d6_cg1d8_4`
 
 ## 実行結果
+- `csv/<prefix>/<prefix>_best_eval.csv` … 各世代のpbest, gbestの値記録
+- `video/` … 探索の様子(↓に記載したもの)
+
 #### `個体数N`:50, `ω`:0.8, `c1`:2.7, `c2`:0.9
 <img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_2_video.gif" width="33%">
 <img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_4_video.gif" width="33%">
