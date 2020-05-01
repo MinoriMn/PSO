@@ -14,16 +14,30 @@
 - `個体数N`:50, `ω`:0.8, `c1`:0.9, `c2`:2.7
 - `個体数N`:20, `ω`:0.8, `c1`:2.7, `c2`:0.9
 - `個体数N`:20, `ω`:0.8, `c1`:0.9, `c2`:2.7
-- `個体数N`:50, `ω`:0.2, `c1`:1.8, `c2`:0.6
-- `個体数N`:50, `ω`:0.2, `c1`:0.6, `c2`:1.8
+- `個体数N`:20, `ω`:0.2, `c1`:1.8, `c2`:0.6
+- `個体数N`:20, `ω`:0.2, `c1`:0.6, `c2`:1.8
 
 ## 実行結果
 #### `個体数N`:50, `ω`:0.8, `c1`:2.7, `c2`:0.9
-<video src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp0d9_cg2d7_1_video.mp4">
-<p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
-</video>
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_2_video.gif" width="33%">
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_4_video.gif" width="33%">
+
 #### `個体数N`:50, `ω`:0.8, `c1`:0.9, `c2`:2.7
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp0d9_cg2d7_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp0d9_cg2d7_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp0d9_cg2d7_2_video.gif" width="33%">
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp0d9_cg2d7_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp0d9_cg2d7_4_video.gif" width="33%">
+
 #### `個体数N`:20, `ω`:0.8, `c1`:2.7, `c2`:0.9
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp2d7_cg0d9_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp2d7_cg0d9_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp2d7_cg0d9_2_video.gif" width="33%">
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp2d7_cg0d9_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp2d7_cg0d9_4_video.gif" width="33%">
+
 #### `個体数N`:20, `ω`:0.8, `c1`:0.9, `c2`:2.7
-#### `個体数N`:50, `ω`:0.2, `c1`:1.8, `c2`:0.6
-#### `個体数N`:50, `ω`:0.2, `c1`:0.6, `c2`:1.8
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp0d9_cg2d7_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp0d9_cg2d7_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp0d9_cg2d7_2_video.gif" width="33%">
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp0d9_cg2d7_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d8_cp0d9_cg2d7_4_video.gif" width="33%">
+
+#### `個体数N`:20, `ω`:0.2, `c1`:1.8, `c2`:0.6
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp1d8_cg0d6_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp1d8_cg0d6_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp1d8_cg0d6_2_video.gif" width="33%">
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp1d8_cg0d6_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp1d8_cg0d6_4_video.gif" width="33%">
+
+#### `個体数N`:20, `ω`:0.2, `c1`:0.6, `c2`:1.8
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp0d6_cg1d8_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp0d6_cg1d8_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp0d6_cg1d8_2_video.gif" width="33%">
+<img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp0d6_cg1d8_3_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N20G100_o0d2_cp0d6_cg1d8_4_video.gif" width="33%">
