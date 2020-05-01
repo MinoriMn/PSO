@@ -26,6 +26,7 @@
 ## 実行結果
 - `csv/<prefix>/<prefix>_best_eval.csv` … 各世代のpbest, gbestの値記録
 - `video/` … 探索の様子(↓に記載したもの)
+  - 打点の説明 `gray`:`x`, `white`:`pbest`, `orange`:`gbest`
 
 #### `個体数N`:50, `ω`:0.8, `c1`:2.7, `c2`:0.9
 <img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_0_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_1_video.gif" width="33%"><img src="https://github.com/MinoriMn/PSO/blob/run/some_pattern/video/N50G100_o0d8_cp2d7_cg0d9_2_video.gif" width="33%">
